@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "NunitoSans-Bold" ;
+    src: url("../fonts/NunitoSans-Bold.ttf");
+}
+/* Estilos generales */
+@font-face {
+    font-family: "nunito";
+    src: url(../fonts/Nunito-Black.ttf);
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/Nunito-Black.ttf);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo{
+    width: 100%;
+}
+
+.productos-lista{
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+} 
+
+.producto{
+    font-size: 16px;
+    border: 2px solid #9967a0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto img {
+    width: 100%;
+    height: 226px;
+    background-color: #f49eff;
+    padding: .6em;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.product a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.product a:hover {
+    text-decoration: underline;
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+.poco-contenido{
+    height: calc(100vh - 269px);
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8b86d6;
+}
+
+header {
+    background-color: #7b51dd;
+    border-bottom: 1px solid rgb(248, 248, 248);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(153, 139, 139, 0.3);
+}
+
+li{
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    resize: none;
+    margin-bottom: 1em;
+}
+
+textarea{
+    resize: none;
+    margin-bottom: 5px;
+}
+
+form input{
+    padding-left: 5px;
+}
+
+#titulo{
+    width: 100%;
+    text-align: center;
+}
+
+#reseña{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-cajas{
+    padding: .4em;
+}
+
+.parrafo-envios, .parrafo-pagos{
+    padding-left: .5em;
+}
+
+.titulo-pagos-envios{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: #12569e;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #2E4374;
+    width: 100%;
+    color: #220566;
+    text-align: center;
+    padding: 1.2em 0;
+}
+
+footer p {
+    margin: #0056b3;
+    }
+
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin: 1em 0;
+    }
+
+    .producto h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+        flex: auto;
+    }
+    
+    .producto p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .producto a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .producto a:hover {
+        text-decoration: underline;
+    }
+
